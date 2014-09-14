@@ -1,0 +1,51 @@
+
+::A JÁTÉK
+VK elo folytatása, 1. epizód. Sengirsoft készíti stbstb.
+
+::RENDSZERKÖVETELMÉNY
+
+Min
+Op rendszer: 98/98SE/2000/XP/Vista/Win7
+PC with 800MHz Intel® Pentium® III or higher
+At least 128 MB
+1024x768 or better video resolution in High Color mode
+DirectSound-compatible sound card
+X Mb
+
+Ajánlott
+Op rendszer: XP/Vista/Win7
+PC with 1.5GHz Intel® Pentium® 4 equivalent or higher processor
+At least 256 MB
+1024×768 or better video resolution in True Color mode
+DirectSound-compatible sound card
+
+
+Emellett:
+DirectSound-compatible sound card
+X Mb
+
+::FEJLESZTÕK
+
+RPGMorpheuS
+MarauderS
+MuffynMaker
+NotShouting
+
+
+Esetleges károkért felelõsséget nem vállalunk
+Véres/hirtelen villanásos jelenetek
+korhatár
+minden jog fenntartva
+2009.06-
+
+::ELÉRHETÕSÉGEK
+http://sengirsoft.uw.hu
+rpgmorpheus@vipmail.hu
+
+::Irányítás (Részletesen a tutorialban)
+nyilak
+enter
+shift
+esc
+F1
+::Külön köszönet
