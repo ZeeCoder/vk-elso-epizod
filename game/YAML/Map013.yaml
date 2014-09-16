@@ -1,0 +1,276 @@
+--- !ruby/object:RPG::Map
+autoplay_bgm: true
+autoplay_bgs: false
+bgm: !ruby/object:RPG::AudioFile
+  name: '!VK_Dark'
+  pitch: 100
+  volume: 100
+bgs: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 80
+data: !ruby/object:Table
+  dim: 3
+  x: 20
+  y: 15
+  z: 3
+  data:
+  - 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 00a8 0058 004c
+  - 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0092 00a4 00a4
+  - 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090
+  - 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090
+  - 0094 00ac 0098 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090
+  - 00a8 005a 00a0 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090
+  - 00a8 005c 00b8 0098 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090
+  - 0092 00b4 005e 00b8 0098 0094 00ac 00ac 00ac 0098 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090
+  - 0090 0092 00b4 005e 00b8 00a9 005b 0051 005d 00b8 0098 0094 00ac 00ac 0098 0090 0090 0090 0090 0090
+  - 0090 0090 0092 00b4 005e 00a1 00a4 00a4 00b4 005e 00b8 00b6 005b 005d 00a0 0090 0090 0090 0090 0090
+  - 0090 0090 0090 0092 00a4 0091 0090 0090 0092 00b4 005b 005d 00b2 00a4 0091 0090 0090 0090 0090 0090
+  - 0090 0090 0090 0090 0090 0090 0090 0090 0090 0092 00a4 00a4 0095 00ac 00ac 0098 0090 0090 0090 0090
+  - 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 00a8 005b 0055 00a0 0090 0090 0094 00ac
+  - 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0092 00b4 0050 00b8 0098 0090 00a8 0052
+  - 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 0090 00a8 0041 0054 00a0 0090 00a8 0040
+  - 0000 0000 0000 0198 0199 019a 019b 019c 019d 019e 019f 01e8 01e9 01ea 01eb 01ec 01ed 0000 0000 0000
+  - 0000 0000 0000 01a0 01a1 01a2 01a3 01a4 01a5 01a6 01a7 01f0 01f1 01f2 01f3 01f4 01f5 0000 0000 0000
+  - 0000 0000 0000 01a8 01a9 01aa 01ab 01ac 01ad 01ae 01af 01f8 01f9 01fa 01fb 01fc 01fd 0000 0000 0000
+  - 0000 0000 0000 01b0 01b1 01b2 01b3 01b4 01b5 01b6 01b7 0200 0201 0202 0203 0204 0205 0000 0000 0000
+  - 0000 0000 0000 01b8 01b9 01ba 01bb 01bc 01bd 01be 01bf 0208 0209 020a 020b 020c 020d 0000 0000 0000
+  - 0000 0000 0000 01c0 01c1 01c2 01c3 01c4 01c5 01c6 01c7 0210 0211 0212 0213 0214 0215 0000 0000 0000
+  - 0000 0000 0000 01c8 01c9 01ca 01cb 01cc 01cd 01ce 01cf 0218 0219 021a 021b 021c 021d 0000 0000 0000
+  - 0000 0000 0000 01d0 01d1 01d2 01d3 01d4 01d5 01d6 01d7 0220 0221 0222 0223 0224 0225 0000 0000 0000
+  - 0335 0336 0000 01d0 01d0 01d0 01d0 01d0 01d0 01d0 01d0 01d0 01d0 01d0 01d0 01d0 01d0 0000 0000 0000
+  - 0000 033d 033e 01d0 01d0 01d0 01d0 01d0 01d0 01d0 01d0 01d0 01d0 01d0 01d0 01d0 01d0 0000 0000 0000
+  - 0000 0345 0346 01d0 01d1 01d0 01d0 01d0 01d0 01d0 01d0 01d0 01d0 01d0 0223 0224 0225 0000 0000 0000
+  - 0000 034d 034e 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0224 0000 0000 0000 0000
+  - 0000 0228 0229 022a 022b 022c 022d 022e 022f 0278 0279 027a 027b 027c 027d 0224 0000 0000 0000 0000
+  - 0000 0230 0231 0232 0233 0234 0235 0236 0237 0280 0281 0282 0283 0284 0285 0000 0000 0000 0000 0000
+  - 0000 0238 0239 023a 023b 023c 023d 023e 023f 0288 0289 028a 028b 028c 028d 0000 0000 0000 0000 0000
+  - 02a2 02a3 02a4 02a5 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0420 03e1 03e2 03e3 03e4 03e5
+  - 02aa 02ab 02ac 02ad 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0420 03e9 03ea 03eb 03ec 03ed
+  - 02b2 02b3 02b4 02b5 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0420 03f1 03f2 03f3 03f4 03f5
+  - 02ba 02bb 02bc 02bd 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 03f8 03f9 03fa 03fb 03fc 03fd
+  - 02c2 02c3 02c4 02c5 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0400 0401 0402 0403 0404 0405
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0408 0409 040a 040b 040c 040d
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0410 0411 0412 0413 0414 0415
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0418 0419 041a 041b 041c 041d
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0420 0421 0422 0423 0424 0425
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0428 0429 042a 042b 042c 042d
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02c8 02c9 02ca 02cb
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02d0 02d1 02d2 02d3
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02d8 02d9 02da 02db
+  - 0390 0391 0392 0393 0394 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 02e0 02e1 02e2 02e3
+  - 0398 0399 039a 039b 039c 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+encounter_list: []
+encounter_step: 30
+events:
+  1: !ruby/object:RPG::Event
+    id: 1
+    name: EV001
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 204, p: [1, 001-Fog01, 0, 150, 0, 200, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [201, 201, 0, 0, 320]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [202, 202, 0, 0, 240]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [27, 27, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [!binary "Kk1FTsOcLVBJQyo="]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 30]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [30]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [78, 78, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [!binary "XE5hbWVbXG5bNV1dIk1vc3Qgw6lwcCBh"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [!binary "XGNbNl1Ww6lnc8WRIEvDvGxkZXTDqXNcY1swXQ=="]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [!binary "XGNbM11NZW7DvC1va3RhdMOzXGNbMF1qw6F0IGzDoXRoYXRvZC4i"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [!binary "XE5hbWVbXG5bNV1dIkVubmVrIG1lZ2tlemTDqXPDqWhleiwgw7xzZCBsZSBh\neg=="]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['[ \c[6]Esc\c[0] ] gombot!"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [188, 188, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 3
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 76
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 188
+        variable_valid: true
+        variable_value: 1
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 59, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [!binary "XE5hbWVbXG5bNV1dIlRlaMOhdCDDrWd5IG7DqXoga2kgYSBtZW7DvC4gSXR0\nIGE="]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [!binary "a8O2dmV0a2V6xZEgbWVuw7xwb250b2thdCB0YWzDoWxvZDo="]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [!binary "XGNbNl1GxZFtZW7DvCwgS8O8bGRldMOpcywgRmVqbMWRZMOpcywgS8Otc8Op\ncsWRaywgVMOpcmvDqXAs"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [!binary "VGFsw6FsdCwgS2FybWEsIEJlw6FsbMOtdMOhcywgS2lsw6lww6lzLiI="]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [!binary "XE5hbWVbXG5bNV1dIkV6ZWsga8O2esO8bCBhIFxjWzZdS8O8bGRldMOpcywg\nS8Otc8OpcsWRaywg"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [!binary "VMOpcmvDqXAsIFRhbMOhbHRcY1swXSBsw6lueWVnw6liZW4gY3NhayB0w6Fq\nw6lrb3p0YXTDsw=="]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [!binary "amVsbGVnxbFlaywgw6lzIGEgbnlpbGFra2FsIGxlaGV0IGlyw6FuecOtdGFu\naSBtaW5kZW50LiI="]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [!binary "XE5hbWVbXG5bNV1dIkViYsWRbCBhIFxjWzZdS2FybWFcY1swXSBtZW7DvHBv\nbnQgYWxhdHQgYSA="]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [!binary "bnlpbGFrIHNlbSBzesO8a3PDqWdlc2VrLCBoaXN6ZW4gZXogY3NhayBhIGrD\noXTDqWtvcw=="]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [!binary "InN0w6F0dXN6Ii3DoXQgamVsemkga2kuIChGxZFrw6ludCBqw7Mvcm9zc3og\na8O8bGRldMOpc2Vra2Vs"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [!binary "bGVoZXQgYmVmb2x5w6Fzb2xuaS4pIg=="]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [!binary "XE5hbWVbXG5bNV1dIkV6ZWsga8O2esO8bCBhIFxjWzZdVGFsw6FsXGNbMF0g\nbWVuw7xwb250IA=="]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [!binary "a8O8bMO2bmxlZ2VzZWJiIGEgdMO2YmJpIGvDtnrDtnR0OiBJdHQgYSBrb21i\naW7DoWNpw7Nob3o="]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [!binary "aGFzem7DoWxoYXTDsyB0w6FyZ3lha2F0LCDDqXMgYXpvayBsZcOtcsOhc8Oh\ndCB0YWzDoWxoYXRvZC4i"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [!binary "XE5hbWVbXG5bNV1dIkEgXGNbNl1GZWpsxZFkw6lzXGNbMF0gbWVuw7xwb250\nIGEg"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [!binary "a8O8bMO2bmLDtnrFkSBoxZFzw7ZrIHR1bGFqZG9uc8OhZ2FpdCBtdXRhdGph\nIG1lZy4gKEFkb3R0"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [!binary "dHVsYWpkb25zw6FnYSBow6FueSAlLWlnIHZhbiBmZWpsZXN6dHZlLikgQSBr\nYXJha3RlcmVr"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [!binary "a8O2esO2dHQgYSBiYWwtam9iYiBueWlsYWtrYWwgbGVoZXQgdsOhbHRhbmku\nIg=="]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [!binary "XE5hbWVbXG5bNV1dIkEgVMOhbWFkw6FzLCBWw6lkZWxlbSwgw6lzIEtpdGFy\ndMOhcyA="]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [!binary "ZWd5c8OpZ2VzZW4gZmVqbGVzenRoZXTFkSBtaW5kZW4ga2FyYWt0ZXJuZWss\nIG3DrWcgYQ=="]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [!binary "MTAuIHN6aW50IGVsw6lyw6lzZSB1dMOhbiAoQSBrYXN6dHbDoWxhc3p0w6Fz\nIHV0w6FuLik="]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [!binary "bWVnamVsZW5uZWsgY3NhayBhIGjFkXNyZSB2b25hdGtvesOzIHR1bGFqZG9u\nc8OhZ29rLiI="]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [!binary "XE5hbWVbXG5bNV1dIkV6IHV0w7NiYmlhayBhem9uYmFuIGNzYWsgYWthZMOp\nbWnDoXZhbCA="]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [!binary "ZmVqbGVzenRoZXTFkWsuIChJc2tvbMOha2JhbiwgbWVnZmVsZWzFkSBoZWx5\nZWtlbiwgbmVt"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [pedig TP-vel.)"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [!binary "XE5hbWVbXG5bNV1dIkEgbGVndXRvbHPDsyBtZW7DvHBvbnQgbWluZGVuIGVz\nZXRiZW4gYSA="]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [!binary "a8OpcGVzc8OpZ2VrIG1lbsO8amUsIGl0dCBsZWhldCBheiBTUC1rZXQgYSBr\nw6lwZXNzw6lnZWs="]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [!binary "ZmVqbGVzenTDqXPDqXJlIGvDtmx0ZW5pLiAoQmFsLWpvYmIgZ29tYnJhIG5l\nbSB2w6FsdA=="]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [!binary "a2FyYWt0ZXJ0LCBoYW5lbSBhIGvDqXBlc3PDqWdlayBrw7Z6w7Z0dCB2w6Fs\ndC4p"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [!binary "XE5hbWVbXG5bNV1dIlLDtnZpZGVuIGVubnlpIHZvbG5hLCBoYSB2w6lnZXp0\nw6ls"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [!binary "w7xzcyDDumpyYSAgWyBcY1s2XUVzY1xjWzBdIF0tZXQh"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [188, 188, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 4
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 76
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 188
+        variable_valid: true
+        variable_value: 2
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 59, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 30]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 242, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [30]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 5, 0, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 4
+      walk_anime: true
+    x: 0
+    y: 14
+  2: !ruby/object:RPG::Event
+    id: 2
+    name: EV002
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 0
+        pattern: 0
+        tile_id: 444
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 14
+    y: 3
+height: 15
+tileset_id: 5
+width: 20

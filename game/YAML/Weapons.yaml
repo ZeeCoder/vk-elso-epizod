@@ -1,0 +1,585 @@
+---
+- 
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: !binary |-
+    TmFneSB0w7ZtZWdiZW4gZWzFkcOhbGzDrXRvdHQgcmlkZWcga2FyZC4=
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 1
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: Vas kard
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: !binary |-
+    S292w6Fjc29sdCwgbmVow6l6IGRlIGhhdMOpa29ueSBmw6ltIHBlbmdlLg==
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 2
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: !binary |-
+    S292w6Fjc29sdCBEdXBsYcOpbMWxIGthcmQ=
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: !binary |-
+    RHLDoWdhIG5lbWVzIMO2dHbDtnpldGLFkWwga292w6Fjc29sdCBmZWd5dmVy
+    Lg==
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 3
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: !binary |-
+    S292w6Fjc29sdCBCcm9ueiBrYXJk
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: !binary |-
+    S8O8bMO2bmxlZ2VzIE5haSDDqWzFsSBtw6lseSBzZWJldCBlanTFkSBmZWd5
+    dmVyLg==
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 4
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: Nai kard
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: !binary |-
+    U29rIG11bmvDoXZhbCwga2Vtw6lueSBrb3J1bmRiw7NsIGvDqXN6w610ZXR0
+    LCBrw7ZubnnDrXRldHQgcGVuZ2Uu
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 5
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: Fekete Korund penge
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: !binary |-
+    w4FsZG90dCB6YWbDrXIgw6FsdGFsIGvDtnLDvGzDtmxlbHQga8O2bm55xbEs
+    IGjDoXJzZmEgZmVneXZlci4=
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 6
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: !binary |-
+    WmFmw61yLWxlbGvFsSAgSMOhcnMga2FyZA==
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: !binary |-
+    w4FsZG90dCB0b3DDoXogw6FsdGFsIGvDtnLDvGzDtmxlbHQga8O2bm55xbEs
+    IMOpZGVuZmEgZmVneXZlci4=
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 7
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: !binary |-
+    VG9ww6F6LWxlbGvFsSDDiWRlbmthcmQ=
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: !binary |-
+    QSBsZWdlbmTDoXMga2FyZCwgbWVseWLFkWwgY3NhayBrZXR0xZEga8Opc3rD
+    vGx0LiBQw6FyasOhdCBlZ3kgVsOpZ3pldCDDmnIgcmFnYWR0YSBlbCBhIGhh
+    bGFuZMOza3TDs2wu
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 8
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: !binary |-
+    IkTDqW1vbsO2bMWRIiBIb3NzesO6IEtvcnVuZCBwZW5nZQ==
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: !binary |-
+    U2V0w6FsIHRlc3R2w6lyw6luZWssIEV0aMOhbCBrb3bDoWNzIG1lc3Rlcm3F
+    sXbDqW5layDDumpyYWFsa290w6FzYS4=
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 9
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: !binary |-
+    RXRow6FsIEVsZW3DqXN6dMWRIFTDvHpl
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: !binary |-
+    U2V0w6FsIGthcmRqYSwgYW1pdCBTaGFtZWVkIGxlZ3nFkXrDqXPDqWhleiBo
+    YXN6bsOhbHQu
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 10
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: Lyndi'en
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: !binary |-
+    RWd5IGVneXN6ZXLFsSBsw6FuZHpzYSBjc2lzem9sdCBrxZF2ZWwu
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 11
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: !binary |-
+    VmFkw6FzemzDoW5kenNh
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: ''
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 12
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: !binary |-
+    RsOpbWhlZ3nFsSBsw6FuZHpzYQ==
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: ''
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 13
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: !binary |-
+    QnJvbnpoZWd5xbEgbMOhbmR6c2E=
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: ''
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 14
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: !binary |-
+    Uml0dcOhbGlzIGzDoW5kenNh
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: ''
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 15
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: !binary |-
+    TmFpIMOpbMWxIGzDoW5kenNh
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: ''
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 16
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: !binary |-
+    Rm9nYXpvdHQgTmFpIGzDoW5kenNh
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: ''
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 17
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: !binary |-
+    VMOzcml1bSBsw6FuZHpzYQ==
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: ''
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 18
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: !binary |-
+    S2FzaHdhdCBsw6FuZHpzYQ==
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: ''
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 19
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: Podrau sikolya
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: ''
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 20
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: !binary |-
+    S2FyYWvDoW4gc3plbWU=
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: ''
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 21
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: !binary |-
+    RmHDrWo=
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: ''
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 22
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: !binary |-
+    UsO2dmlkIMOtag==
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: ''
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 23
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: !binary |-
+    SMOhcnNmYSDDrWo=
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: ''
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 24
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: !binary |-
+    SG9zc3rDuiDDrWo=
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: ''
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 25
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: !binary |-
+    UmVmbGV4w61q
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: ''
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 26
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: !binary |-
+    Vmlzc3phY3NhcMOzIMOtag==
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: ''
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 27
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: ''
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: ''
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 28
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: !binary |-
+    VMO2cnRsZWxrxbEgw61q
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: ''
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 29
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: !binary |-
+    WnZhZGVrIGTDqW1vbnNpa29seQ==
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0
+- !ruby/object:RPG::Weapon
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 0
+  atk: 0
+  description: ''
+  dex_plus: 0
+  element_set: []
+  icon_name: ''
+  id: 30
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+  name: ''
+  pdef: 0
+  plus_state_set: []
+  price: 0
+  str_plus: 0

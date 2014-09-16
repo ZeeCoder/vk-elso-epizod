@@ -1,0 +1,289 @@
+--- !ruby/object:RPG::Map
+autoplay_bgm: false
+autoplay_bgs: false
+bgm: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 100
+bgs: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 80
+data: !ruby/object:Table
+  dim: 3
+  x: 20
+  y: 15
+  z: 3
+  data:
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+encounter_list: []
+encounter_step: 30
+events:
+  1: !ruby/object:RPG::Event
+    id: 1
+    name: EV001
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [9, logo2, 1, 0, 320, -135, 75, 75, 100, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [9, 4, 1, 0, 320, 615, 75, 75, 100, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_zzz', pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [10, logo2, 1, 0, 320, 240, 75, 75, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {a: 100.0, b: 0.0, g: 0.0, r: 200.0}, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [10]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_zzz2', pitch: 100, volume: 25}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_zzz', pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [10, logo2, 1, 0, 324, 240, 100, 100, 200, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_zzz', pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [10, logo2, 1, 0, 316, 243, 100, 100, 200, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_zzz', pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [10, logo2, 1, 0, 323, 260, 100, 100, 200, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_zzz', pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [10, logo2, 1, 0, 320, 240, 100, 100, 200, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_zzz2', pitch: 100, volume: 25}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [10, logo2, 1, 0, 324, 240, 100, 100, 200, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_zzz', pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [10, logo2, 1, 0, 316, 243, 100, 100, 200, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_zzz2', pitch: 100, volume: 25}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [10, logo2, 1, 0, 300, 230, 100, 100, 200, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_zzz2', pitch: 100, volume: 50}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [10, logo2, 1, 0, 320, 240, 100, 100, 200, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_zzz', pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [10, logo2, 1, 0, 320, 215, 100, 100, 200, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [10]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [10, 20, 1, 0, 320, 240, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [11, logo3, 1, 0, 320, 240, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [11, 40, 1, 0, 320, 240, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['10']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_zzz', pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [9, logo2, 1, 0, 340, 230, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_zzz', pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [9, logo2, 1, 0, 320, 220, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_zzz', pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_zzz2', pitch: 100, volume: 25}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [9, logo2, 1, 0, 340, 240, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_zzz', pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [9, logo2, 1, 0, 310, 250, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_zzz2', pitch: 100, volume: 25}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [9, logo2, 1, 0, 310, 230, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_zzz2', pitch: 100, volume: 25}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [9, logo2, 1, 0, 320, 250, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [10]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['10']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_zzz', pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [9, logo2, 1, 0, 340, 230, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_zzz', pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [9, logo2, 1, 0, 320, 220, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_zzz2', pitch: 100, volume: 25}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [9, logo2, 1, 0, 340, 240, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_zzz', pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_zzz2', pitch: 100, volume: 25}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [9, logo2, 1, 0, 310, 250, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_zzz', pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [9, logo2, 1, 0, 310, 230, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_zzz', pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [9, logo2, 1, 0, 320, 250, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['10']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_zzz', pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [9, logo2, 1, 0, 325, 245, 100, 100, 200, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [9, logo2, 1, 0, 315, 245, 100, 100, 200, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [9, logo2, 1, 0, 325, 235, 100, 100, 200, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [9]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [9, logo2, 1, 0, 315, 235, 100, 100, 200, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [9, logo2, 1, 0, 320, 235, 100, 100, 200, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [9, logo2, 1, 0, 323, 243, 100, 100, 200, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [9]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_zzz', pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [11, logo3, 1, 0, 320, 240, 400, 400, 175, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [11, 2, 1, 0, 320, 240, 100, 100, 230, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [10, logo, 1, 0, 320, 240, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [11]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [40]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 234, p: [10, !ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [10, 20, 1, 0, 320, 240, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [50]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [10]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [10, white, 0, 0, 0, 0, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [10, 10, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_Sengir', pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [10]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_Sengir', pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [11, logo_team, 1, 0, 320, 240, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [11, 20, 1, 0, 320, 240, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [12, logo_team2, 1, 0, 320, 240, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [12, 30, 1, 0, 320, 240, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [80]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [12, 10, 1, 0, 320, 240, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [11, 10, 1, 0, 320, 240, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [10]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [11]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [12]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [10, 10, 0, 0, 0, 0, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [10]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [10]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 5, 0, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 4
+      walk_anime: true
+    x: 1
+    y: 0
+  3: !ruby/object:RPG::Event
+    id: 3
+    name: EV003
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 105, p: [9]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [1, 9, 0, 13, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [9]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [10]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [11]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [12]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [58, 58, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 5, 0, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 4
+      walk_anime: true
+    x: 19
+    y: 14
+height: 15
+tileset_id: 4
+width: 20

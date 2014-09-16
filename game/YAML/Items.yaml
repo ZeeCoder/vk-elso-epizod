@@ -1,0 +1,619 @@
+---
+- 
+- !ruby/object:RPG::Item
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: false
+  description: !binary |-
+    TnllcnMsIHRpc3p0w610YXRsYW4gdmFzw6lyYy4=
+  element_set: []
+  hit: 100
+  icon_name: Kom_1_Vas
+  id: 1
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile
+    name: ''
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+  name: Vas
+  occasion: 3
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0
+- !ruby/object:RPG::Item
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: false
+  description: !binary |-
+    VGlzenRhIMOzbiDDqXMgcsOpeiDDtnR2w7Z6ZXRlLg==
+  element_set: []
+  hit: 100
+  icon_name: ''
+  id: 2
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile
+    name: ''
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+  name: Bronz
+  occasion: 3
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0
+- !ruby/object:RPG::Item
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: false
+  description: !binary |-
+    U3phYsOhbHl0YWxhbiBhbGFrw7osIGLDoW55w6Fzem90dCBOYWkga3Jpc3TD
+    oWx5Lg==
+  element_set: []
+  hit: 100
+  icon_name: ''
+  id: 3
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile
+    name: ''
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+  name: !binary |-
+    S3Jpc3TDoWx5
+  occasion: 3
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0
+- !ruby/object:RPG::Item
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: false
+  description: !binary |-
+    SWdlbiBtw6lseWVuIGLDoW55w6Fzem90dCByaXRrYXPDoWcu
+  element_set: []
+  hit: 100
+  icon_name: ''
+  id: 4
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile
+    name: ''
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+  name: !binary |-
+    VG9ww6F6
+  occasion: 3
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0
+- !ruby/object:RPG::Item
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: false
+  description: !binary |-
+    SWdlbiBtw6lseWVuIGLDoW55w6Fzem90dCByaXRrYXPDoWcu
+  element_set: []
+  hit: 100
+  icon_name: ''
+  id: 5
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile
+    name: ''
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+  name: !binary |-
+    WmFmw61y
+  occasion: 3
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0
+- !ruby/object:RPG::Item
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: false
+  description: !binary |-
+    S2Vtw6lueSwgZXLFkXMsIGRyw6FnYSBmw6ltZXMga2luY3Mu
+  element_set: []
+  hit: 100
+  icon_name: ''
+  id: 6
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile
+    name: ''
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+  name: Korund
+  occasion: 3
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0
+- !ruby/object:RPG::Item
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: false
+  description: !binary |-
+    RWd5IGVyZGVpIGjDoXJzIGVyxZFzIMOhZ2Eu
+  element_set: []
+  hit: 100
+  icon_name: ''
+  id: 7
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile
+    name: ''
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+  name: !binary |-
+    SMOhcnNmYcOhZw==
+  occasion: 3
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0
+- !ruby/object:RPG::Item
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: false
+  description: !binary |-
+    VsOtenBhcnRpIGbFsXogaGFqbMOpa29ueSwgZGUgZXLFkXMgw6FnYS4=
+  element_set: []
+  hit: 100
+  icon_name: ''
+  id: 8
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile
+    name: ''
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+  name: !binary |-
+    RsWxemZhw6Fn
+  occasion: 3
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0
+- !ruby/object:RPG::Item
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: false
+  description: !binary |-
+    S2Vtw6lueSwgcnVnYWxtYXRsYW4gZmHDoWcu
+  element_set: []
+  hit: 100
+  icon_name: ''
+  id: 9
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile
+    name: ''
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+  name: !binary |-
+    QWvDoWNmYcOhZw==
+  occasion: 3
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0
+- !ruby/object:RPG::Item
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: false
+  description: !binary |-
+    QSBsZWdqb2JiIMOtamFrIHJpdGthLCBuZW1lcyBhbGFwYW55YWdhLg==
+  element_set: []
+  hit: 100
+  icon_name: ''
+  id: 10
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile
+    name: ''
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+  name: !binary |-
+    Wmltd2VyYWkgbGnDoW4=
+  occasion: 3
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0
+- !ruby/object:RPG::Item
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: false
+  description: !binary |-
+    TmFneSBlbGxlbsOhbGzDoXNhLCDDqXMgcnVnYWxtYXNzw6FnYSBtaWF0dCBl
+    bMWRc3plcmV0ZXR0ZWwgaGFzem7DoWxqw6FrIGvDtm5uecWxcGFqenNvayBr
+    w6lzesOtdMOpc8OpaGV6Lg==
+  element_set: []
+  hit: 100
+  icon_name: ''
+  id: 11
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile
+    name: ''
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+  name: !binary |-
+    w4lkZW5mYWd5w7Zrw6ly
+  occasion: 3
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0
+- !ruby/object:RPG::Item
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: false
+  description: !binary |-
+    QSAiUG9kcmF1Ii1iw7NsIMOhdHRlbGVww7xsdCwga2Vtw6lueSBmYWZhanRh
+    IGVneSDDoWdhLg==
+  element_set: []
+  hit: 100
+  icon_name: ''
+  id: 12
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile
+    name: ''
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+  name: !binary |-
+    UG9kcmF1IGZhw6Fn
+  occasion: 3
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0
+- !ruby/object:RPG::Item
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: false
+  description: !binary |-
+    RXLFkXMsIMOpcyBob3NzesO6LCDDoWxsYXRpIGVyZWRldMWxIGluYWsu
+  element_set: []
+  hit: 100
+  icon_name: ''
+  id: 13
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile
+    name: ''
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+  name: Inak
+  occasion: 3
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0
+- !ruby/object:RPG::Item
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: false
+  description: !binary |-
+    U29rZsOpbGUsIGbFkWxlZyBzcGlyaXR1w6FsaXMgdMOhcmd5YWtiYW4gaGFz
+    em7DoWxhdG9zYWsu
+  element_set: []
+  hit: 100
+  icon_name: ''
+  id: 14
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile
+    name: ''
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+  name: Szarvak
+  occasion: 3
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0
+- !ruby/object:RPG::Item
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: false
+  description: !binary |-
+    QSBsZWdlbmTDoXMgS2FzaHdhdCB0ZXJlbXRtw6lueSBoaWhldGV0bGVuIGtl
+    bcOpbnkgY3NvbnRqYS4=
+  element_set: []
+  hit: 100
+  icon_name: ''
+  id: 15
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile
+    name: ''
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+  name: Kashwat csont
+  occasion: 3
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0
+- !ruby/object:RPG::Item
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: false
+  description: !binary |-
+    S8O2bm55xbEgcMOhbmPDqWx6YXRvayBiw6lsw6lzw6nDvGwgc3pvbGfDoWwu
+  element_set: []
+  hit: 100
+  icon_name: Ko34
+  id: 16
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile
+    name: ''
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+  name: Bunda
+  occasion: 3
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0
+- !ruby/object:RPG::Item
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: false
+  description: !binary |-
+    S2FyZG9rIG1hcmtvbGF0w6FuLCDDqXMgZWd5w6liIGhlbHlla2VuIGhhc3pu
+    w6FsYXRvcyBrw61tw6lsxZEgYm9yw610w6FzLg==
+  element_set: []
+  hit: 100
+  icon_name: ''
+  id: 17
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile
+    name: ''
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+  name: !binary |-
+    QsWRcg==
+  occasion: 3
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0
+- !ruby/object:RPG::Item
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: false
+  description: !binary |-
+    QSBsZWdlbmTDoXNhbiBrZW3DqW55LCDDqWxlcyBrYXJvbSBhIEthc2h3YXQg
+    a2V6w6lyxZFsLg==
+  element_set: []
+  hit: 100
+  icon_name: ''
+  id: 18
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile
+    name: ''
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+  name: Kashwat karom
+  occasion: 3
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0
+- !ruby/object:RPG::Item
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: true
+  description: ''
+  element_set: []
+  hit: 100
+  icon_name: ''
+  id: 19
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile
+    name: ''
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+  name: poti
+  occasion: 0
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0
+- !ruby/object:RPG::Item
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: true
+  description: ''
+  element_set: []
+  hit: 100
+  icon_name: ''
+  id: 20
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile
+    name: ''
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+  name: !binary |-
+    SGFqbmFsdmlyw6Fn
+  occasion: 0
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0

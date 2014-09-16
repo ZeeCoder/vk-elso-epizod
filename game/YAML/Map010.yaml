@@ -1,0 +1,803 @@
+--- !ruby/object:RPG::Map
+autoplay_bgm: false
+autoplay_bgs: false
+bgm: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 100
+bgs: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 80
+data: !ruby/object:Table
+  dim: 3
+  x: 20
+  y: 15
+  z: 3
+  data:
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+  - 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180 0180
+encounter_list: []
+encounter_step: 30
+events:
+  1: !ruby/object:RPG::Event
+    id: 1
+    name: EV001
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [80, 80, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::AudioFile {name: '!VK_Slow Motion', pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 39, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [39, 39, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [2, !binary "VHV0TWVuw7w=", 1, 0, 320, 240, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 234, p: [2, !ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 234, p: [2, !ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 20]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [3, tutmenumegj00, 1, 0, 102, -450, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [10]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [3, 2, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [5]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [4, tutmenumegj01, 1, 0, 102, 275, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [4, 10, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [5]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [5, tutmenumegj02, 1, 0, 102, 275, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [5, 10, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [5]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [6, tutmenumegj03, 1, 0, 102, 275, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [6, 10, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [5]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [7, tutmenumegj04, 1, 0, 102, 275, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [7, 10, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [5]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [8, tutmenumegj05, 1, 0, 102, 275, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [8, 10, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [5]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [20, tutmenu_v, 1, 0, 100, 200, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [20, 10, 1, 0, 100, 200, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [5]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [9, tutmenumegj06, 1, 0, 102, 275, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [9, 10, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [5]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [10, tutmenumegj07, 1, 0, 102, 275, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [10, 10, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [5]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [11, tutmenumegj08, 1, 0, 102, 275, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [11, 10, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [5]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [12, tutmenumegj09, 1, 0, 102, 275, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [12, 10, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [5]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [13, tutmenumegj10, 1, 0, 102, 275, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [13, 10, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [5]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [14, tutmenumegj11, 1, 0, 102, 275, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [14, 10, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [5]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [15, tutmenumegj12, 1, 0, 102, 275, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [15, 10, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [5]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [16, tutmenu_m_1, 1, 0, 102, 275, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [16, 10, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [25, tutmenu_szerk3, 1, 0, 500, 50, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 234, p: [25, !ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [25, 20, 1, 0, 500, 50, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 234, p: [25, !ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 20]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [10]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [4]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [5]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [6]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [7]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [8]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [9]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [10]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [11]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [12]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [13]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [14]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [15]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [16]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [3, tutmenu_m_1, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [2, !binary "VHV0TWVuw7w=", 1, 0, 320, 240, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [3, tutmenu_m_1, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [20, tutmenu_v, 1, 0, 100, 200, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [25, tutmenu_szerk3, 1, 0, 500, 50, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 234, p: [25, !ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 234, p: [25, !ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 20]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 234, p: [2, !ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 234, p: [3, !ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 234, p: [20, !ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [0, 57, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [24, tutmenu_szerk2, 1, 0, 400, 160, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 234, p: [23, !ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [23, tutmenu_szerk, 1, 0, 440, 360, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 234, p: [23, !ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 234, p: [24, !ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 234, p: [24, !ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 20]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 234, p: [23, !ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 20]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 234, p: [2, !ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 20]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 234, p: [3, !ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 20]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 234, p: [20, !ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 20]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 234, p: [25, !ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 20]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [38, 38, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 3
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 38
+        switch1_valid: true
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 105, p: [79]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [1, 79, 0, 13, 5]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [!binary "cG96w61jacOz"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 79, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_move', pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [80, 80, 1, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 79, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_move', pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [80, 80, 2, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 79, 0, 6, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_move', pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [80, 80, 1, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 118, p: [ki]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 79, 0, 8, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_move', pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [80, 80, 2, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [!binary "w4F0Y3NvcmR1bMOhcw=="]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [80, 80, 0, 0, 8]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 9, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [80, 80, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [!binary "a2ltdXRhdMOhcw=="]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [4, tutmenu_m_1, 1, 0, 102, 275, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [4, 3, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 106, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [3, tutmenu_m_1, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [4]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [4, tutmenu_m_2, 1, 0, 102, 275, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [4, 3, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 106, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [3, tutmenu_m_2, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [4]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 3, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [4, tutmenu_m_3, 1, 0, 102, 275, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [4, 3, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 106, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [3, tutmenu_m_3, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [4]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [4, tutmenu_m_4, 1, 0, 102, 275, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [4, 3, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 106, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [3, tutmenu_m_4, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [4]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 5, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [4, tutmenu_m_5, 1, 0, 102, 275, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [4, 3, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 106, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [3, tutmenu_m_5, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [4]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 6, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [4, tutmenu_m_6, 1, 0, 102, 275, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [4, 3, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 106, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [3, tutmenu_m_6, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [4]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 7, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [4, tutmenu_m_7, 1, 0, 102, 275, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [4, 3, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 106, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [3, tutmenu_m_7, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [4]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 8, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [4, tutmenu_m_8, 1, 0, 102, 275, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [4, 3, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 106, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [3, tutmenu_m_8, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [4]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_Boom', pitch: 100, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: [$scene = Scene_Load.new]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 119, p: [nemh]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 8, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [0, 57, 1]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [24, tutmenu_szerk2, 1, 0, 400, 160, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 234, p: [23, !ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [23, tutmenu_szerk, 1, 0, 440, 360, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 234, p: [23, !ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 232, p: [24, 20, 1, 0, 400, 160, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 234, p: [24, !ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 20]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 106, p: [5]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 232, p: [23, 20, 1, 0, 440, 360, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 234, p: [23, !ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 20]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 121, p: [57, 57, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 232, p: [24, 10, 1, 0, 400, 160, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 234, p: [24, !ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 10]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 232, p: [23, 10, 1, 0, 440, 360, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 234, p: [23, !ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 10]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 121, p: [57, 57, 1]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 119, p: [nemh]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 242, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 106, p: [10]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::AudioFile {name: '!VK_NewGame', pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [38, 38, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [21]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 234, p: [25, !ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 10]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 234, p: [23, !ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 10]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 234, p: [24, !ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 10]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 234, p: [20, !ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 10]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [4, tutmenumegj13, 1, 0, 102, 275, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [4, 20, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 234, p: [4, !ruby/object:Tone {a: 0.0, b: 0.0, g: 0.0, r: 0.0}, 20]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 234, p: [3, !ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 20]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [20, 20, 1, 0, 100, 200, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [25, 20, 1, 0, 500, 50, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [24, 20, 1, 0, 400, 160, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [23, 20, 1, 0, 440, 360, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 106, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [4]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [3, tutmenumegj13, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 106, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [3, 40, 1, 0, 102, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 106, p: [40]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [3, 40, 1, 0, 102, -450, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 234, p: [3, !ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 40]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 106, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 234, p: [2, !ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 20]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 106, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [25]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [24]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [23]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 17, 0, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 119, p: [nemh]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [38, 38, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 20]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [0, 57, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 242, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 234, p: [25, !ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 20]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 234, p: [23, !ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 20]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 234, p: [24, !ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 20]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 234, p: [20, !ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 20]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 234, p: [3, !ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 20]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 234, p: [2, !ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 20]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [21]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [25]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [24]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [23]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 3, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: [$scene = nil]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [77, 77, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [21, 21, 0, 0, 21]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [22, 22, 0, 0, 13]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [23, 23, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [24, 24, 0, 0, 20]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 117, p: [10]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 5, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 19, 10, 13, 8, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 6, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 13, 9, 10, 2, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 7, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 118, p: [nemh]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 3
+      walk_anime: true
+    x: 1
+    y: 14
+  2: !ruby/object:RPG::Event
+    id: 2
+    name: EV002
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 1
+        switch1_valid: false
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [80, 80, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [3, tutmenu, 1, 0, 102, 275, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [2, !binary "VHV0TWVuw7w=", 1, 0, 320, 240, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [10, !binary "RsWRbWVuw7xfQjE=", 0, 0, 500, 180, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [11, !binary "RsWRbWVuw7xfQjE=", 0, 0, 500, 210, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [12, !binary "RsWRbWVuw7xfQjE=", 0, 0, 500, 240, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [13, !binary "RsWRbWVuw7xfQjE=", 0, 0, 50, 150, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [14, !binary "RsWRbWVuw7xfQjE=", 0, 0, 50, 180, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [15, !binary "RsWRbWVuw7xfQjE=", 0, 0, 50, 210, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [16, !binary "RsWRbWVuw7xfQjE=", 0, 0, 50, 240, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [17, !binary "RsWRbWVuw7xfQjE=", 0, 0, 50, 270, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [10, 2, 0, 0, 500, 180, 140, 140, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [11, 2, 0, 0, 500, 210, 140, 140, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [10, 2, 0, 0, 500, 180, 120, 120, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [12, 2, 0, 0, 500, 240, 140, 140, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [11, 2, 0, 0, 500, 210, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [13, 2, 0, 0, 50, 150, 140, 140, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [12, 2, 0, 0, 500, 240, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [14, 2, 0, 0, 50, 180, 140, 140, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [13, 2, 0, 0, 50, 150, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [15, 2, 0, 0, 50, 210, 140, 140, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [14, 2, 0, 0, 50, 180, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [16, 2, 0, 0, 50, 240, 140, 140, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [15, 2, 0, 0, 50, 210, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [17, 2, 0, 0, 50, 270, 140, 140, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [16, 2, 0, 0, 50, 240, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 232, p: [17, 2, 0, 0, 50, 270, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [38, 38, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 38
+        switch1_valid: true
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 105, p: [79]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [1, 79, 0, 13, 5]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [!binary "cG96w61jacOz"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 79, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [80, 80, 1, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 79, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 119, p: [ugyanaz]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 79, 0, 6, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 118, p: [ugyanaz]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 80, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [80, 80, 0, 0, 5]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: [ki]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 80, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [80, 80, 0, 0, 6]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: [ki]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 80, 0, 3, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [80, 80, 0, 0, 7]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 119, p: [ki]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 80, 0, 5, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [80, 80, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 80, 0, 6, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [80, 80, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 80, 0, 7, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [80, 80, 0, 0, 3]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 118, p: [ki]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 79, 0, 8, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [80, 80, 2, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [!binary "w4F0Y3NvcmR1bMOhcw=="]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [80, 80, 0, 0, 8]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 9, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [80, 80, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [!binary "a2ltdXRhdMOhcw=="]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 1, 5]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [10, 2, 0, 0, 500, 180, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [10, 2, 0, 0, 500, 180, 140, 140, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 2, 5]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [11, 2, 0, 0, 500, 210, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [11, 2, 0, 0, 500, 210, 140, 140, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 3, 5]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [12, 2, 0, 0, 500, 240, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [12, 2, 0, 0, 500, 240, 140, 140, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 4, 5]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [13, 2, 0, 0, 50, 150, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [13, 2, 0, 0, 50, 150, 140, 140, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 5, 5]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [14, 2, 0, 0, 50, 180, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [14, 2, 0, 0, 50, 180, 140, 140, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 6, 5]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [15, 2, 0, 0, 50, 210, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [15, 2, 0, 0, 50, 210, 140, 140, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 7, 5]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [16, 2, 0, 0, 50, 240, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [16, 2, 0, 0, 50, 240, 140, 140, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 8, 5]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [17, 2, 0, 0, 50, 270, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 232, p: [17, 2, 0, 0, 50, 270, 140, 140, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 119, p: [nemhalvany]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 223, p: [!ruby/object:Tone {a: 0.0, b: -255.0, g: -255.0, r: -255.0}, 20]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [2, 20, 1, 0, 320, 240, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [10, 20, 0, 0, 500, 180, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [11, 20, 0, 0, 500, 210, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [12, 20, 0, 0, 500, 240, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [13, 20, 0, 0, 50, 150, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [14, 20, 0, 0, 50, 180, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [15, 20, 0, 0, 50, 210, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [16, 20, 0, 0, 50, 240, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 232, p: [17, 20, 0, 0, 50, 270, 100, 100, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 118, p: [nemhalvany]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 12, 0, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: [$scene = Scene_Load.new]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 3, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: [$scene = nil]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 8, 9, 0, 2, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 5, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 7, 10, 13, 8, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 6, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 13, 0, 0, 8, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 80, 0, 7, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 14, 0, 0, 8, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 0
+      walk_anime: true
+    x: 19
+    y: 14
+  3: !ruby/object:RPG::Event
+    id: 3
+    name: EV003
+    pages:
+    - !ruby/object:RPG::Event::Page
+      always_on_top: false
+      condition: !ruby/object:RPG::Event::Page::Condition
+        self_switch_ch: A
+        self_switch_valid: false
+        switch1_id: 38
+        switch1_valid: true
+        switch2_id: 1
+        switch2_valid: false
+        variable_id: 1
+        variable_valid: false
+        variable_value: 0
+      direction_fix: false
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        blend_type: 0
+        character_hue: 0
+        character_name: ''
+        direction: 2
+        opacity: 255
+        pattern: 0
+        tile_id: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [99, 99, 0, 2, 60, 120]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 112, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [99, 99, 2, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 99, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 113, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 413, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [99, 99, 0, 0, 10]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 112, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [99, 99, 2, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [98, 98, 0, 2, 95, 101]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [100, 100, 0, 2, 197, 203]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [21, tutmenu_v2, 1, 1, 98, 100, 100, 100, 200, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 106, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 99, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 113, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 413, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [21, tutmenu_v2, 1, 0, 100, 200, 100, 100, 200, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 106, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [21]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+        repeat: true
+        skippable: false
+      move_speed: 3
+      move_type: 0
+      step_anime: false
+      through: false
+      trigger: 4
+      walk_anime: true
+    x: 2
+    y: 14
+height: 15
+tileset_id: 4
+width: 20

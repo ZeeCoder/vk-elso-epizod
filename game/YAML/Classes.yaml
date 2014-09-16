@@ -1,0 +1,329 @@
+---
+- 
+- !ruby/object:RPG::Class
+  armor_set:
+  - 1
+  element_ranks: !ruby/object:Table
+    dim: 1
+    x: 17
+    y: 1
+    z: 1
+    data:
+    - 0000 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003
+  id: 1
+  learnings:
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 1
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 4
+  name: Katona
+  position: 0
+  state_ranks: !ruby/object:Table
+    dim: 1
+    x: 17
+    y: 1
+    z: 1
+    data:
+    - 0000 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003
+  weapon_set:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+- !ruby/object:RPG::Class
+  armor_set:
+  - 1
+  element_ranks: !ruby/object:Table
+    dim: 1
+    x: 17
+    y: 1
+    z: 1
+    data:
+    - 0000 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003
+  id: 2
+  learnings:
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 7
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 10
+  name: Lancer
+  position: 0
+  state_ranks: !ruby/object:Table
+    dim: 1
+    x: 17
+    y: 1
+    z: 1
+    data:
+    - 0000 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003
+  weapon_set:
+  - 5
+  - 6
+  - 7
+  - 8
+- !ruby/object:RPG::Class
+  armor_set:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  element_ranks: !ruby/object:Table
+    dim: 1
+    x: 17
+    y: 1
+    z: 1
+    data:
+    - 0000 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003
+  id: 3
+  learnings: []
+  name: Warrior
+  position: 0
+  state_ranks: !ruby/object:Table
+    dim: 1
+    x: 17
+    y: 1
+    z: 1
+    data:
+    - 0000 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003
+  weapon_set:
+  - 9
+  - 10
+  - 11
+  - 12
+- !ruby/object:RPG::Class
+  armor_set:
+  - 5
+  - 6
+  - 7
+  - 8
+  - 17
+  - 18
+  - 19
+  - 20
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  element_ranks: !ruby/object:Table
+    dim: 1
+    x: 17
+    y: 1
+    z: 1
+    data:
+    - 0000 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003
+  id: 4
+  learnings: []
+  name: Thief
+  position: 1
+  state_ranks: !ruby/object:Table
+    dim: 1
+    x: 17
+    y: 1
+    z: 1
+    data:
+    - 0000 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003
+  weapon_set:
+  - 13
+  - 14
+  - 15
+  - 16
+- !ruby/object:RPG::Class
+  armor_set:
+  - 5
+  - 6
+  - 7
+  - 8
+  - 17
+  - 18
+  - 19
+  - 20
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  element_ranks: !ruby/object:Table
+    dim: 1
+    x: 17
+    y: 1
+    z: 1
+    data:
+    - 0000 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003
+  id: 5
+  learnings: []
+  name: Hunter
+  position: 1
+  state_ranks: !ruby/object:Table
+    dim: 1
+    x: 17
+    y: 1
+    z: 1
+    data:
+    - 0000 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003
+  weapon_set:
+  - 17
+  - 18
+  - 19
+  - 20
+- !ruby/object:RPG::Class
+  armor_set:
+  - 5
+  - 6
+  - 7
+  - 8
+  - 17
+  - 18
+  - 19
+  - 20
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  element_ranks: !ruby/object:Table
+    dim: 1
+    x: 17
+    y: 1
+    z: 1
+    data:
+    - 0000 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003
+  id: 6
+  learnings: []
+  name: Gunner
+  position: 1
+  state_ranks: !ruby/object:Table
+    dim: 1
+    x: 17
+    y: 1
+    z: 1
+    data:
+    - 0000 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003
+  weapon_set:
+  - 21
+  - 22
+  - 23
+  - 24
+- !ruby/object:RPG::Class
+  armor_set:
+  - 9
+  - 10
+  - 11
+  - 12
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  element_ranks: !ruby/object:Table
+    dim: 1
+    x: 17
+    y: 1
+    z: 1
+    data:
+    - 0000 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003
+  id: 7
+  learnings:
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 1
+  name: Cleric
+  position: 2
+  state_ranks: !ruby/object:Table
+    dim: 1
+    x: 17
+    y: 1
+    z: 1
+    data:
+    - 0000 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003
+  weapon_set:
+  - 25
+  - 26
+  - 27
+  - 28
+- !ruby/object:RPG::Class
+  armor_set:
+  - 9
+  - 10
+  - 11
+  - 12
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  element_ranks: !ruby/object:Table
+    dim: 1
+    x: 17
+    y: 1
+    z: 1
+    data:
+    - 0000 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003
+  id: 8
+  learnings: []
+  name: Mage
+  position: 2
+  state_ranks: !ruby/object:Table
+    dim: 1
+    x: 17
+    y: 1
+    z: 1
+    data:
+    - 0000 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003
+  weapon_set:
+  - 29
+  - 30
+  - 31
+  - 32

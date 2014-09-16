@@ -1,0 +1,969 @@
+--- !ruby/object:RPG::System
+_: 7829367
+actor_collapse_se: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 80
+battle_bgm: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 100
+battle_end_me: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 100
+battle_start_se: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 80
+battle_transition: ''
+battleback_name: 003-Forest01
+battler_hue: 0
+battler_name: 001-Fighter01
+buzzer_se: !ruby/object:RPG::AudioFile
+  name: 004-System04
+  pitch: 100
+  volume: 80
+cancel_se: !ruby/object:RPG::AudioFile
+  name: '!VK_Esc'
+  pitch: 100
+  volume: 80
+cursor_se: !ruby/object:RPG::AudioFile
+  name: '!VK_move'
+  pitch: 100
+  volume: 80
+decision_se: !ruby/object:RPG::AudioFile
+  name: '!VK_Boom'
+  pitch: 100
+  volume: 100
+edit_map_id: 29
+elements:
+- ''
+- Fire
+- Ice
+- Thunder
+- Water
+- Earth
+- Wind
+- Light
+- Darkness
+- Anti-Undead
+- Anti-Reptile
+- Anti-Aquatic
+- Anti-Beast
+- Anti-Ogre
+- Anti-Avian
+- Anti-Demon
+- Anti-Angel
+enemy_collapse_se: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 80
+equip_se: !ruby/object:RPG::AudioFile
+  name: 005-System05
+  pitch: 100
+  volume: 80
+escape_se: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 80
+gameover_me: !ruby/object:RPG::AudioFile
+  name: 005-Defeat01
+  pitch: 100
+  volume: 100
+gameover_name: GameOver
+load_se: !ruby/object:RPG::AudioFile
+  name: 034-Switch03
+  pitch: 100
+  volume: 70
+magic_number: 1931598
+party_members:
+- 1
+save_se: !ruby/object:RPG::AudioFile
+  name: 035-Switch04
+  pitch: 100
+  volume: 75
+shop_se: !ruby/object:RPG::AudioFile
+  name: 006-System06
+  pitch: 100
+  volume: 80
+start_map_id: 29
+start_x: 3
+start_y: 15
+switches:
+- 
+- Follow
+- 2Hero
+- 3Hero
+- 4Hero
+- Disattach
+- !binary |-
+  TGXDvGx0ZWs=
+- 2HeroFTP
+- 3HeroFTP
+- 4HeroFTP
+- 2HeroInTeam
+- 3HeroInTeam
+- 4HeroInTeam
+- '@@FadingOUT'
+- !binary |-
+  S8O8bGRldMOpc0tpbXV0YXTDoXM=
+- RandItem1
+- RandItem2
+- RandItem3
+- RandItem4
+- RandItem5
+- RandItem6
+- RandItem7
+- RandItem8
+- RandItem9
+- RandItem10
+- RandCheckOK
+- !binary |-
+  w4FsbHRTZXR1cE9r
+- !binary |-
+  TUVOw5xPTg==
+- !binary |-
+  U8O2dMOpdERvbGdvaw==
+- HeroFTP
+- !binary |-
+  Rm9nYWTDs3Now7ZsZ3lPaw==
+- LehetMenteni
+- !binary |-
+  S8O2dmk=
+- !binary |-
+  S8O2dmV0xZFTZXR1cG9r
+- !binary |-
+  a8O2dmV0xZF0dXRfLXN0YXQ=
+- MapHangEffektOn
+- !binary |-
+  QEBDc2VsZWt2w6lzTWVoZXQ=
+- !binary |-
+  VMO6bEvDtnplbA==
+- !binary |-
+  TWVuw7xTZXR1cE9L
+- !binary |-
+  TWVuw7xNw6FyVm9sdA==
+- RandItem11
+- RandItem12
+- RandItem13
+- RandItem14
+- RandItem15
+- RandItem16
+- RandItem17
+- RandItem18
+- !binary |-
+  S8O8bGRpSmVsw7ZsxZE=
+- !binary |-
+  T2xkYWxpcsOhbnk=
+- '%-'
+- 1HeroAlszik
+- 2HeroAlszik
+- 3HeroAlszik
+- 4HeroAlszik
+- !binary |-
+  QWp0w7NLaU1laGV0
+- !binary |-
+  Rm9nYWTDs0lyw6FuecOtdMOhc3RGT1JNRSEh
+- !binary |-
+  TWVuw7xTemVyaw==
+- BLACKWait
+- !binary |-
+  TWVuw7xTZXR1cE9r
+- !binary |-
+  TWVuw7xTZXR1cA==
+- !binary |-
+  TWVuw7xfU3TDoXR1c3o=
+- NincsNyers
+- !binary |-
+  Qm1lbsO8U2V0dXA=
+- !binary |-
+  MV9Lw61zw6lyxZE=
+- !binary |-
+  QEBLb3bDoWNzMQ==
+- !binary |-
+  QEBLb3bDoWNzMQ==
+- !binary |-
+  QEBLb3bDoWNzMQ==
+- !binary |-
+  QEBLb3bDoWNzMQ==
+- !binary |-
+  QEBLb3bDoWNzMQ==
+- !binary |-
+  QEBLb3bDoWNzMQ==
+- !binary |-
+  QEBLb3bDoWNzMQ==
+- !binary |-
+  QEBLb3bDoWNzMQ==
+- !binary |-
+  QEBLb3bDoWNzMQ==
+- !binary |-
+  QEBLb3bDoWNzMQ==
+- !binary |-
+  QEBLb3bDoWNzMQ==
+- BSEND
+- !binary |-
+  SGFuZ0hhbGvDrXTDoXNLSQ==
+- !binary |-
+  SGFsdsOhbnnDrXQ=
+- '@@BSSetup'
+- ArcMozogH2
+- ArcMozogH3
+- ArcMozogH4
+- BSArcEl
+- !binary |-
+  QlNDc8Ota0ZlbA==
+- BSStandard
+- InGraf1
+- InGraf2
+- InGraf3
+- InGraf4
+- !binary |-
+  ISFAQElyw6FuecOtdMOhc0dhbWVybmVrISE=
+- !binary |-
+  TmXDnHNkVG92w6FiYiE=
+- !binary |-
+  JUJlasO2dHQ=
+- OutGraf1
+- OutGraf2
+- OutGraf3
+- OutGraf4
+- !binary |-
+  MUhCZWZlamV6xZFNb3pkdWxhdG9r
+- !binary |-
+  MkhCZWZlamV6xZFNb3pkdWxhdG9r
+- !binary |-
+  M0hCZWZlamV6xZFNb3pkdWxhdG9r
+- !binary |-
+  NEhCZWZlamV6xZFNb3pkdWxhdG9r
+- !binary |-
+  QlNMZcOtcsOhc1TDtnJsw6lzZQ==
+- !binary |-
+  QlNMZcOtclJlc2V0
+- BSSpecSetup
+- !binary |-
+  QlNUw6FyZ3ltZW7DvFTDoW1hZMOzSmVsbGVn
+- !binary |-
+  QlPDgWxsYXBvdG9rT24=
+- !binary |-
+  SDHDiWw=
+- !binary |-
+  SDLDiWw=
+- !binary |-
+  SDPDiWw=
+- !binary |-
+  SDTDiWw=
+- BSTPXPS
+- 1HLeszOk
+- 2HLeszOk
+- 3HLeszOk
+- 4HLeszOk
+- '!'
+- dob
+- !binary |-
+  QWRzYcOJcmtlemlr
+- !binary |-
+  RWzFkUZyb250TWVndm9sdA==
+- TrenOk
+- potiOk
+- LeidaOk
+- ''
+- ''
+- ''
+- ''
+test_battlers:
+- !ruby/object:RPG::System::TestBattler
+  actor_id: 1
+  armor1_id: 1
+  armor2_id: 0
+  armor3_id: 0
+  armor4_id: 0
+  level: 1
+  weapon_id: 1
+- !ruby/object:RPG::System::TestBattler
+  actor_id: 2
+  armor1_id: 1
+  armor2_id: 0
+  armor3_id: 0
+  armor4_id: 0
+  level: 1
+  weapon_id: 0
+test_troop_id: 1
+title_bgm: !ruby/object:RPG::AudioFile
+  name: ''
+  pitch: 100
+  volume: 100
+title_name: ''
+variables:
+- 
+- HeroX
+- HeroY
+- 2HeroX
+- 2HeroY
+- 3HeroX
+- 3HeroY
+- 4HeroX
+- 4HeroY
+- FollowKeyInput
+- 2HeroX;Y
+- 3HeroX;Y
+- 4HeroX;Y
+- FollowerOn?
+- New/OldFollower
+- DisattachHely
+- CheckHX;Y
+- DisattachKeyInput
+- FollowToPointLocal
+- FollowToPointInPlace
+- FollowToPointMaxNumber
+- '@@TeleportID'
+- '@@TeleportX'
+- '@@TeleportY'
+- '@@TeleportFadingTime'
+- RandItemTerrain
+- RandomoltItem
+- HeroMaxNumVolt
+- '@@TeleportFel'
+- '@@TeleportJobb'
+- '@@TeleportLe'
+- '@@TeleportBal'
+- Rang(-3;3)
+- !binary |-
+  QEBLw7xsZGV0w6lzU2V0w6FsaXVt
+- !binary |-
+  QEBLw7xsZGV0w6lzU3TDoXR1c3o=
+- '@@BonuszItemRand'
+- '@@RandBonuszChance'
+- RandHelper
+- '@@SOCIAL_RANKING!'
+- RankCounting
+- RandItemMapX
+- RandItemMapY
+- RandItemCounter
+- '@@RandItemMAX'
+- RandItem1
+- RandItem2
+- RandItem3
+- RandItem4
+- RandItem5
+- RandItem6
+- RandItem7
+- RandItem8
+- RandItem9
+- RandItem10
+- !binary |-
+  QEBLw7xsZGV0w6lzXzE=
+- !binary |-
+  RGlzYXR0YWNoSXLDoW55w610
+- RandCheck
+- !binary |-
+  w4FsbHRhbMOhbm9zVHV0b3JpYWw=
+- !binary |-
+  S8O2dmV0xZF0dXRfdsO2csO2c2hhbHk=
+- !binary |-
+  S8O2dmV0xZF0dXRfaMWRcw==
+- HeroX;Y
+- '@@MapHangEffekt'
+- !binary |-
+  QEBNYXBSYW5kSWTFkQ==
+- !binary |-
+  S8O2dmV0xZFMZXbDoWxhc3p0QXJj
+- !binary |-
+  TWFwUmFuZElkxZFDb3B5
+- '@@HeroISClose'
+- '@@CloseDistance'
+- Distance-X
+- Distance-Y
+- Distance+X
+- Distance+Y
+- '@@QuestX'
+- '@@QuestY'
+- KarakterX
+- KarakterY
+- '@@SAVE'
+- Save-ment
+- !binary |-
+  QXJjSXLDoW55
+- !binary |-
+  QXJjSXLDoW55U3lzdGVtw6k=
+- !binary |-
+  RsWRbWVuw7xJcsOhbnnDrXTDoXM=
+- !binary |-
+  RsWRbWVuw7xIZWx5
+- !binary |-
+  VsOhbGFzenRvdHRJTk5Tem9iYUlE
+- !binary |-
+  VsOhbGFzenRvdHRJTk5Uw6Fyb2zDs0thcA==
+- !binary |-
+  w4FsbHQuU3pvYmFUw6Fyb2zDoXM=
+- HeroX(FTP)
+- HeroY(FTP)
+- !binary |-
+  U3pvYmFGb2dsYWzDoXNIxZFzU3rDoW0=
+- !binary |-
+  U3pvYmFNZWxsw6lrdMO2bHTFkWTDqXM=
+- !binary |-
+  U3pvYmFUw7ZsdMWRZMOpc1TDoXJvbMOz
+- !binary |-
+  w4FsbHRTem9iYTFIZWx5WA==
+- !binary |-
+  w4FsbHRTem9iYTFIZWx5WQ==
+- !binary |-
+  w4FsbHRTem9iYTJIZWx5WA==
+- !binary |-
+  w4FsbHRTem9iYTJIZWx5WQ==
+- !binary |-
+  w4FsbHRTem9iYTNIZWx5WA==
+- !binary |-
+  w4FsbHRTem9iYTNIZWx5WQ==
+- !binary |-
+  w4FsbHRTem9iYTRIZWx5WA==
+- !binary |-
+  w4FsbHRTem9iYTRIZWx5WQ==
+- !binary |-
+  w4FsbHRTem9iYUhlbHlFbG9zenTDoXM=
+- !binary |-
+  UsOhesOhc1g=
+- !binary |-
+  UsOhesOhc0lkxZE=
+- !binary |-
+  UsOhesOhc1k=
+- !binary |-
+  QWt0dcOhbFN0w6F0dXN6
+- !binary |-
+  S8O8bGRpU3RhdFg=
+- !binary |-
+  S8O8bGRpU3RhdFk=
+- RankingVolt
+- !binary |-
+  ISFTWsOBTU9LWA==
+- !binary |-
+  ISFTWsOBTU9LWQ==
+- !binary |-
+  ISFTWsOBTU9LX0FTesOhbQ==
+- !binary |-
+  S8O8bGRpSXRlbVg=
+- !binary |-
+  S8O8bGRpSXRlbVk=
+- !binary |-
+  TWVuw7xPTiEh
+- !binary |-
+  QmVsc8WRTWVuw7w=
+- !binary |-
+  TUVOw5xIRUxZ
+- StatX
+- StatY
+- x
+- y
+- +
+- TalalJelX
+- TalalJelY
+- RandItemCheck
+- !binary |-
+  MV9Lw7xsZGV0w6lz
+- !binary |-
+  TWF4S8O8bGRp
+- MapX
+- MapY
+- !binary |-
+  VGFsw6FsdFTDoXJneQ==
+- MapOnX
+- MapOnY
+- MXVolt
+- MYvolt
+- MHelyXVolt
+- MHelyYVolt
+- !binary |-
+  QEBEb3JlcsOBc3bDoW55RmVsaXNtZXLDqXM=
+- !binary |-
+  QEBMZWlkYU7DtnbDqW55RmVsaXNtZXLDqXM=
+- !binary |-
+  QEBFc2NhdmFsw4FsbGF0RmVsaXNtZXLDqXM=
+- !binary |-
+  TWVuw7xIZWx5Mg==
+- '@@DorerKaszt'
+- '@@LeidaKaszt'
+- '@@EscavalKaszt'
+- !binary |-
+  TWVuw7xvbg==
+- !binary |-
+  TWVuw7xIZWx5Mw==
+- '@@DorerTP'
+- '@@EscavalTP'
+- '@@LeidaTP'
+- '@@KendelTP'
+- '@@DorerSP'
+- '@@EscavalSP'
+- '@@LeidaSP'
+- '@@KendelSP'
+- !binary |-
+  QVN6w6FtMg==
+- '@@KendelKaszt'
+- SkillShowX
+- SkillShowY
+- !binary |-
+  RE1heFTDoW1hZMOhcw==
+- !binary |-
+  RU1heFTDoW1hZMOhcw==
+- !binary |-
+  TE1heFTDoW1hZMOhcw==
+- !binary |-
+  S01heFTDoW1hZMOhcw==
+- ''
+- !binary |-
+  REFrdHXDoWxUw6FtYWTDoXM=
+- !binary |-
+  RUFrdHXDoWxUw6FtYWTDoXM=
+- !binary |-
+  TEFrdHXDoWxUw6FtYWTDoXM=
+- !binary |-
+  S0FrdHXDoWxUw6FtYWTDoXM=
+- !binary |-
+  QWt0dcOhbCU=
+- Max%
+- !binary |-
+  RE1heFbDqWRlbGVt
+- !binary |-
+  RU1heFbDqWRlbGVt
+- !binary |-
+  TE1heFbDqWRlbGVt
+- !binary |-
+  S01heFbDqWRlbGVt
+- !binary |-
+  REFrdHXDoWxWw6lkZWxlbQ==
+- !binary |-
+  RUFrdHXDoWxWw6lkZWxlbQ==
+- !binary |-
+  TEFrdHXDoWxWw6lkZWxlbQ==
+- !binary |-
+  S0FrdHXDoWxWw6lkZWxlbQ==
+- !binary |-
+  RE1heEtpdGFydMOhcw==
+- !binary |-
+  RU1heEtpdGFydMOhcw==
+- !binary |-
+  TE1heEtpdGFydMOhcw==
+- !binary |-
+  S01heEtpdGFydMOhcw==
+- !binary |-
+  REFrdHXDoWxLaXRhcnTDoXM=
+- !binary |-
+  RUFrdHXDoWxLaXRhcnTDoXM=
+- !binary |-
+  TEFrdHXDoWxLaXRhcnTDoXM=
+- !binary |-
+  S0FrdHXDoWxLaXRhcnTDoXM=
+- DSpec1%
+- DSpec2%
+- ESpec1%
+- ESpec2%
+- LSpec1%
+- LSpec2%
+- KSpec1%
+- KSpec2%
+- !binary |-
+  VHV0TWVuw7w=
+- !binary |-
+  MUjFkXNNb3pnYXTDoXM=
+- !binary |-
+  MkjFkXNNb3pnYXTDoXM=
+- !binary |-
+  M0jFkXNNb3pnYXTDoXM=
+- !binary |-
+  NEjFkXNNb3pnYXTDoXM=
+- !binary |-
+  NSJIxZFzIk1vemdhdMOhcw==
+- !binary |-
+  NiJIxZFzIk1vemdhdMOhcw==
+- !binary |-
+  MUVsbGVuTW96Z2F0w6Fz
+- !binary |-
+  MkVsbGVuTW96Z2F0w6Fz
+- !binary |-
+  M0VsbGVuTW96Z2F0w6Fz
+- !binary |-
+  NEVsbGVuTW96Z2F0w6Fz
+- !binary |-
+  TW96Z2F0w6FzTUFY
+- !binary |-
+  w4FsbHRNb3pnYXTDoXNY
+- !binary |-
+  SGFsdsOhbnlY
+- !binary |-
+  SGFsdsOhbnlZ
+- !binary |-
+  S2FzenRIxZFzU3rDoW0=
+- !binary |-
+  QEBCU0PDqWxwb250
+- !binary |-
+  QEBCU0TDtm50w6lz
+- !binary |-
+  QEBCU1Bhbm9yw6FtYQ==
+- !binary |-
+  QEAxRWxsZW5Uw61wdXM=
+- !binary |-
+  QEAyRWxsZW5Uw61wdXM=
+- !binary |-
+  QEAzRWxsZW5Uw61wdXM=
+- !binary |-
+  QEA0RWxsZW5Uw61wdXM=
+- !binary |-
+  QEBCU0VnecOpbkVsbGVuQ2hlY2s=
+- KasztSzintAkt.
+- '@@BSHarcZene'
+- !binary |-
+  QEBCU0bDqW55RWZmZWt0
+- !binary |-
+  SDFDc8Ota1g=
+- !binary |-
+  SDFDc8Ota1k=
+- !binary |-
+  SDJDc8Ota1g=
+- !binary |-
+  SDJDc8Ota1k=
+- !binary |-
+  SDNDc8Ota1g=
+- !binary |-
+  SDNDc8Ota1k=
+- !binary |-
+  SDRDc8Ota1g=
+- !binary |-
+  SDRDc8Ota1k=
+- !binary |-
+  w4FsbHRDc8Ota1g=
+- !binary |-
+  w4FsbHRDc8Ota1k=
+- !binary |-
+  w4FsbHQl
+- '%Max'
+- '%Most'
+- !binary |-
+  QEBNZW7DvFTDoW1hZA==
+- !binary |-
+  QEBNZW7DvFTDoXJneQ==
+- !binary |-
+  MUjFkXNNb3pnYXTDoXNZ
+- !binary |-
+  MkjFkXNNb3pnYXTDoXNZ
+- !binary |-
+  M0jFkXNNb3pnYXTDoXNZ
+- !binary |-
+  NEjFkXNNb3pnYXTDoXNZ
+- !binary |-
+  NSJIxZFzIk1vemdhdMOhc1k=
+- !binary |-
+  NiJIxZFzIk1vemdhdMOhc1k=
+- !binary |-
+  w4FsbHRNb3pnYXTDoXNZ
+- MSzam
+- !binary |-
+  MUhWw6FyYWtvesOhcw==
+- !binary |-
+  MkhWw6FyYWtvesOhcw==
+- !binary |-
+  M0hWw6FyYWtvesOhcw==
+- !binary |-
+  NEhWw6FyYWtvesOhcw==
+- Kivon
+- BSArcEl
+- !binary |-
+  RWxsZW5Nb3pnYXTDoXNNYXg=
+- !binary |-
+  MUVsbGVuVsOhcmFrb3rDoXM=
+- !binary |-
+  MkVsbGVuVsOhcmFrb3rDoXM=
+- !binary |-
+  M0VsbGVuVsOhcmFrb3rDoXM=
+- !binary |-
+  NEVsbGVuVsOhcmFrb3rDoXM=
+- !binary |-
+  QlNNZW7DvEjFkXNTesOhbQ==
+- !binary |-
+  QlNNZW7DvEhlbHk=
+- !binary |-
+  MUVsbGVuTW96Z8Ohc0d5b3JzYXPDoWc=
+- !binary |-
+  MkVsbGVuTW96Z8Ohc0d5b3JzYXPDoWc=
+- !binary |-
+  M0VsbGVuTW96Z8Ohc0d5b3JzYXPDoWc=
+- !binary |-
+  NEVsbGVuTW96Z8Ohc0d5b3JzYXPDoWc=
+- !binary |-
+  QlNNZW7DvE1vem9n
+- !binary |-
+  QnNLaWplbMO2bE1lbsO8SGVseQ==
+- !binary |-
+  MUVsbGVuw4lsZXQ=
+- !binary |-
+  MkVsbGVuw4lsZXQ=
+- !binary |-
+  M0VsbGVuw4lsZXQ=
+- !binary |-
+  NEVsbGVuw4lsZXQ=
+- !binary |-
+  QlNFbGxlbktpamVsw7ZsWA==
+- !binary |-
+  QlNFbGxlbktpamVsw7ZZ
+- !binary |-
+  QlNNZW7DvEtpamVsw7ZsWA==
+- !binary |-
+  QlNNZW7DvEtpamVsw7ZsWQ==
+- IngrafKell
+- InGrafVan
+- !binary |-
+  RmVsa8Opc3rDvGzFkUdyYWY=
+- 1EllenKritikus%
+- !binary |-
+  MUVsbGVuTWVsbMOpJQ==
+- !binary |-
+  MUVsbGVuVsOpZGVrZXrDqXM=
+- !binary |-
+  MUVsbGVuVMOhbWFkw6Fz
+- !binary |-
+  QEAhIVNlYnrDqXM=
+- '%'
+- !binary |-
+  JVNlZ8OpZA==
+- !binary |-
+  w4FsbHTDiWxldA==
+- !binary |-
+  MUhNZWxsw6kl
+- 1HKritikus%
+- !binary |-
+  MkhNZWxsw6kl
+- 2HKritikus%
+- !binary |-
+  M0hNZWxsw6kl
+- 3HKritikus%
+- !binary |-
+  NEhNZWxsw6kl
+- 4HKritikus%
+- !binary |-
+  MUgxRWxsZW4lLW9zSGF0w6lrb255c8OhZw==
+- !binary |-
+  MUgyRWxsZW4lLW9zSGF0w6lrb255c8OhZw==
+- !binary |-
+  MUgzRWxsZW4lLW9zSGF0w6lrb255c8OhZw==
+- !binary |-
+  MUg0RWxsZW4lLW9zSGF0w6lrb255c8OhZw==
+- !binary |-
+  MkgxRWxsZW4lLW9zSGF0w6lrb255c8OhZw==
+- !binary |-
+  MkgyRWxsZW4lLW9zSGF0w6lrb255c8OhZw==
+- !binary |-
+  MkgzRWxsZW4lLW9zSGF0w6lrb255c8OhZw==
+- !binary |-
+  Mkg0RWxsZW4lLW9zSGF0w6lrb255c8OhZw==
+- !binary |-
+  M0gxRWxsZW4lLW9zSGF0w6lrb255c8OhZw==
+- !binary |-
+  M0gyRWxsZW4lLW9zSGF0w6lrb255c8OhZw==
+- !binary |-
+  M0gzRWxsZW4lLW9zSGF0w6lrb255c8OhZw==
+- !binary |-
+  M0g0RWxsZW4lLW9zSGF0w6lrb255c8OhZw==
+- !binary |-
+  NEgxRWxsZW4lLW9zSGF0w6lrb255c8OhZw==
+- !binary |-
+  NEgyRWxsZW4lLW9zSGF0w6lrb255c8OhZw==
+- !binary |-
+  NEgzRWxsZW4lLW9zSGF0w6lrb255c8OhZw==
+- !binary |-
+  NEg0RWxsZW4lLW9zSGF0w6lrb255c8OhZw==
+- !binary |-
+  U3rDvGtzw6lnZXNFbGxlbkhhbMOhbA==
+- !binary |-
+  RWxsZW5IYWzDoWxvaw==
+- !binary |-
+  RWxsZW5NYXhIYWzDoWw=
+- !binary |-
+  U3rDoW1vbMOhc2hveg==
+- !binary |-
+  VMOhcmd5bnllcmVtw6lueQ==
+- !binary |-
+  U2ViesOpc0tp
+- !binary |-
+  QlNIxZFzL0VsbGVuU2ViesOpcw==
+- !binary |-
+  w4FsbHRIUA==
+- !binary |-
+  U2Vnw6lk
+- !binary |-
+  QlNMZcOtcsOhc1bDoXJha296w6Fz
+- !binary |-
+  QlNMZcOtcsOhc1TDrXB1c2E=
+- !binary |-
+  QlNMZcOtcsOhc1NvclN6w7xrc8OpZw==
+- !binary |-
+  QlNMZcOtclg=
+- !binary |-
+  QlNMZcOtclk=
+- !binary |-
+  MUVsbGVuw5Zzc3pYUMOJcnTDqWs=
+- !binary |-
+  MUVsbGVuUsOpc3psZWdlc1hQ
+- SpecX
+- SpecY
+- !binary |-
+  U3BlY01lbsO8SQ==
+- !binary |-
+  U3BlY01lbsO8SA==
+- !binary |-
+  U3BlY21lbsO8TWF4
+- !binary |-
+  cHLDs2LDoWxrb3rDoXM=
+- !binary |-
+  w4lsZXRoMQ==
+- !binary |-
+  w4lsZXRoMg==
+- !binary |-
+  w4lsZXRoMw==
+- !binary |-
+  w4lsZXRoNA==
+- !binary |-
+  MWjFkXMxw6FsbGFwb3RWw6FyYWtvesOhcw==
+- !binary |-
+  MmjFkXMxw6FsbGFwb3RWw6FyYWtvesOhcw==
+- !binary |-
+  M2jFkXMxw6FsbGFwb3RWw6FyYWtvesOhcw==
+- !binary |-
+  NGjFkXMxw6FsbGFwb3RWw6FyYWtvesOhcw==
+- !binary |-
+  MWjFkXMxw6FsbGFwb3RHeWFrb3Jpc8OhZw==
+- !binary |-
+  MmjFkXMxw6FsbGFwb3RHeWFrb3Jpc8OhZw==
+- !binary |-
+  M2jFkXMxw6FsbGFwb3RHeWFrb3Jpc8OhZw==
+- !binary |-
+  NGjFkXMxw6FsbGFwb3RHeWFrb3Jpc8OhZw==
+- !binary |-
+  w4FsbGFwb3RIQ8OpbHBvbnQ=
+- !binary |-
+  w4FsbGFwb3RIVMOtcHVz
+- !binary |-
+  MWVsbGVuMcOhbGxhcG90VsOhcmFrb3rDoXM=
+- !binary |-
+  MmVsbGVuMcOhbGxhcG90VsOhcmFrb3rDoXM=
+- !binary |-
+  M2VsbGVuMcOhbGxhcG90VsOhcmFrb3rDoXM=
+- !binary |-
+  NGVsbGVuMcOhbGxhcG90VsOhcmFrb3rDoXM=
+- !binary |-
+  MWVsbGVuMcOhbGxhcG90R3lha29yaXPDoWc=
+- !binary |-
+  MmVsbGVuMcOhbGxhcG90R3lha29yaXPDoWc=
+- !binary |-
+  M2VsbGVuMcOhbGxhcG90R3lha29yaXPDoWc=
+- !binary |-
+  NGVsbGVuMcOhbGxhcG90R3lha29yaXPDoWc=
+- x
+- y
+- !binary |-
+  MUjFkXNYUCs=
+- !binary |-
+  MkjFkXNYUCs=
+- !binary |-
+  M0jFkXNYUCs=
+- !binary |-
+  NEjFkXNYUCs=
+- !binary |-
+  SMWRc1N6w6Ft
+- ArcX
+- !binary |-
+  MWhTesOhbXk=
+- !binary |-
+  MmhTesOhbXk=
+- !binary |-
+  M2hTesOhbXk=
+- !binary |-
+  NGhTesOhbXk=
+- !binary |-
+  SDFBa3R1w6FsWFA=
+- !binary |-
+  SDJBa3R1w6FsWFA=
+- !binary |-
+  SDNBa3R1w6FsWFA=
+- !binary |-
+  SDRBa3R1w6FYUA==
+- H1LeszXP
+- H2LeszXP
+- H3LeszXP
+- H4LeszXP
+- !binary |-
+  w4F0bWVuZXRpWFA=
+- H1VoltXP
+- H2VoltXP
+- H3VoltXP
+- H4VoltXP
+- H1vonalX
+- H2vonalX
+- H3vonalX
+- H4vonalX
+- VonalY
+- !binary |-
+  VMOhdg==
+- akt2
+- LvL
+- LvL2
+- '!'
+- ycsuszka1
+- ycsuszka2
+- ycsuszka3
+- ycsuszka4
+- Follow
+- !binary |-
+  RWxsw6lw
+- !binary |-
+  RXNlbcOpbnlYO1k=
+- !binary |-
+  SMWRc1g7WQ==
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+windowskin_name: System
+words: !ruby/object:RPG::System::Words
+  agi: !binary |-
+    R3lvcnNhc8OhZw==
+  armor1: Pajzs
+  armor2: Sisak
+  armor3: !binary |-
+    UMOhbmPDqWw=
+  armor4: !binary |-
+    S2llZ8Opc3rDrXTFkQ==
+  atk: !binary |-
+    VMOhbWFkw7MgRXLFkQ==
+  attack: !binary |-
+    VMOhbWFkw6Fz
+  dex: !binary |-
+    w5xneWVzc8OpZw==
+  equip: !binary |-
+    RmVsc3plcmVsw6lz
+  gold: !binary |-
+    U2V0w6FsaXVt
+  guard: !binary |-
+    VsOpZMOpcw==
+  hp: HP
+  int: Inteligencia
+  item: !binary |-
+    VMOhcmd5
+  mdef: !binary |-
+    TcOhZ2lhIHbDqWTDqXM=
+  pdef: !binary |-
+    Rml6aWthaSB2w6lkw6lz
+  skill: !binary |-
+    S8OpcGVzc8OpZw==
+  sp: SP
+  str: !binary |-
+    RXLFkQ==
+  weapon: Fegyver
