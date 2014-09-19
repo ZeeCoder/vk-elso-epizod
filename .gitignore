@@ -2,3 +2,5 @@
 .DS_Store
 Save*.rxdata
 game/Data/*
+.vagrant
+
